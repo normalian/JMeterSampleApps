@@ -1,1 +1,0 @@
-C:\my_program\CSharp\JMeterSampleApps\JMeterSampleApps\bin\Debug\JMeterSampleApps.exe.config
