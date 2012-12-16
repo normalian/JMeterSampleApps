@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMeterMvcApp", "JMeterMvcApp\JMeterMvcApp.csproj", "{3D0D5E2D-011E-49F6-9890-455C00A3A5EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableClasses", "PortableClasses\PortableClasses.csproj", "{268B6296-8E59-4259-BED9-3F78A79B4BBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D0D5E2D-011E-49F6-9890-455C00A3A5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0D5E2D-011E-49F6-9890-455C00A3A5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0D5E2D-011E-49F6-9890-455C00A3A5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0D5E2D-011E-49F6-9890-455C00A3A5EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{268B6296-8E59-4259-BED9-3F78A79B4BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{268B6296-8E59-4259-BED9-3F78A79B4BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{268B6296-8E59-4259-BED9-3F78A79B4BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{268B6296-8E59-4259-BED9-3F78A79B4BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
