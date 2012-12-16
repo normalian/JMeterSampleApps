@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Web.WebPages.OAuth;
-using JMeterMvcApp.Models;
+using JMeterApp.Mvc.Models;
 
-namespace JMeterMvcApp
+namespace JMeterApp.Mvc
 {
     public static class AuthConfig
     {

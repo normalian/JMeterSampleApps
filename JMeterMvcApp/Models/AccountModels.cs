@@ -6,7 +6,7 @@ using System.Data.Entity;
 using System.Globalization;
 using System.Web.Security;
 
-namespace JMeterMvcApp.Models
+namespace JMeterApp.Mvc.Models
 {
     public class UsersContext : DbContext
     {

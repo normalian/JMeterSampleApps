@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMeterMvcApp", "JMeterMvcApp\JMeterMvcApp.csproj", "{3D0D5E2D-011E-49F6-9890-455C00A3A5EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMeterApp.Mvc", "JMeterMvcApp\JMeterApp.Mvc.csproj", "{3D0D5E2D-011E-49F6-9890-455C00A3A5EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableClasses", "PortableClasses\PortableClasses.csproj", "{268B6296-8E59-4259-BED9-3F78A79B4BBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMeterApp.Common", "PortableClasses\JMeterApp.Common.csproj", "{268B6296-8E59-4259-BED9-3F78A79B4BBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

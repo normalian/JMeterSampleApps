@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace JMeterMvcApp.Controllers
+namespace JMeterApp.Mvc.Controllers
 {
     public class HomeController : Controller
     {

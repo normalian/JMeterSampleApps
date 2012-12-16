@@ -6,8 +6,9 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using JMeterApp.Common.Models;
 
-namespace JMeterMvcApp
+namespace JMeterApp.Mvc
 {
     // メモ: IIS6 または IIS7 のクラシック モードの詳細については、
     // http://go.microsoft.com/?LinkId=9394801 を参照してください
@@ -23,6 +24,8 @@ namespace JMeterMvcApp
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterAuth();
+
+            
         }
     }
 }

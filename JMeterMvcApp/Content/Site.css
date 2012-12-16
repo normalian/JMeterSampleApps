@@ -3,9 +3,8 @@ The base color for this template is #5c87b2. If you'd like
 to use a different color start by replacing all instances of
 #5c87b2 with your new color.
 ----------------------------------------------------------*/
-body
-{
-	background-image: url(    'Background.jpg' );
+body {
+	background-image: url( 'Background.jpg' );
 	background-position: left top;
 	background-repeat: no-repeat;
 	font-size: .75em;
@@ -16,66 +15,61 @@ body
 	background-color: #EEF1FA;
 }
 
-a:link
-{
+a:link {
 	color: #034af3;
 	text-decoration: none;
 }
-a:visited
-{
+
+a:visited {
 	color: #505abc;
 }
-a:hover
-{
+
+a:hover {
 	color: #3C80DB;
 	text-decoration: underline;
 }
-a:active
-{
+
+a:active {
 	color: #12eb87;
 }
 
-p, ul
-{
+p, ul {
 	margin-bottom: 20px;
 	line-height: 1.6em;
 }
 
 /* HEADINGS   
 ----------------------------------------------------------*/
-h1, h2, h3, h4, h5, h6
-{
+h1, h2, h3, h4, h5, h6 {
 	font-size: 1.5em;
 	color: #3C80DB;
 }
 
-h1
-{
+h1 {
 	font-size: 2em;
 	padding-bottom: 0;
 	margin-bottom: 0;
 }
-h2
-{
+
+h2 {
 	padding: 0 0 10px 0;
 }
-h3
-{
+
+h3 {
 	font-size: 1.2em;
 }
-h4
-{
+
+h4 {
 	font-size: 1.1em;
 }
-h5, h6
-{
+
+h5, h6 {
 	font-size: 1em;
 }
 
 /* this rule styles <h2> tags that are the 
 first child of the left and right table columns */
-.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
-{
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2 {
 	margin-top: 0;
 }
 
@@ -84,48 +78,43 @@ first child of the left and right table columns */
 
 /* you can specify a greater or lesser percentage for the 
 page width. Or, you can specify an exact pixel width. */
-.page
-{
+.page {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#header
-{
+#header {
 	position: relative;
 	margin-bottom: 0px;
 	color: #000;
-	padding: 0 0 20px 0px;
-	background-image: url(   'BannerTopEdge.gif' );
+	padding: 0 0 40px 0px;
+	background-image: url( 'BannerTopEdge.gif' );
 	background-position: bottom;
 	background-repeat: repeat-x;
 }
 
-#header h1
-{
-	font-weight: bold;
-	padding: 5px 0;
-	margin: 0;
-	color: #fff;
-	border: none;
-	line-height: 2em;
-	font-size: 32px !important;
-}
+	#header h1 {
+		font-weight: bold;
+		padding: 5px 0;
+		margin: 0;
+		color: #fff;
+		border: none;
+		line-height: 2em;
+		font-size: 32px !important;
+	}
 
-#main
-{
+#main {
 	padding: 30px 30px 15px 30px;
 	background-color: #fff;
 	margin-bottom: 30px;
 	_height: 1px; /* only IE6 applies CSS properties starting with an underscrore */
-	background-image: url(   'BannerBottomEdge.gif' );
+	background-image: url( 'BannerBottomEdge.gif' );
 	background-position: bottom;
 	background-repeat: repeat-x;
 }
 
-#footer
-{
+#footer {
 	color: #999;
 	padding: 10px 0;
 	text-align: center;
@@ -136,113 +125,98 @@ page width. Or, you can specify an exact pixel width. */
 
 /* TAB MENU   
 ----------------------------------------------------------*/
-ul#menu
-{
+ul#menu {
 	padding: 0;
 	position: relative;
 	margin: 0;
 	text-align: right;
 }
 
-ul#menu li
-{
-	display: inline;
-	list-style: none;
-}
+	ul#menu li {
+		display: inline;
+		list-style: none;
+	}
 
-ul#menu li#greeting
-{
-	padding: 10px 20px;
-	font-weight: bold;
-	text-decoration: none;
-	line-height: 2.8em;
-	color: #fff;
-}
+		ul#menu li#greeting {
+			padding: 10px 20px;
+			font-weight: bold;
+			text-decoration: none;
+			line-height: 2.8em;
+			color: #fff;
+		}
 
-ul#menu li a
-{
-	padding: 10px 20px;
-	font-weight: bold;
-	text-decoration: none;
-	line-height: 2.8em;
-	background-color: #fff;
-	color: #3C80DB;
-	border: Solid 1px #AECAF0;
-}
+		ul#menu li a {
+			padding: 10px 20px;
+			font-weight: bold;
+			text-decoration: none;
+			line-height: 2.8em;
+			background-color: #fff;
+			color: #3C80DB;
+			border: Solid 1px #AECAF0;
+		}
 
-ul#menu li a:hover
-{
-	background-color: #3C80DB;
-	text-decoration: none;
-	color: #fff;
-	border: Solid 1px #AECAF0;
-}
+			ul#menu li a:hover {
+				background-color: #3C80DB;
+				text-decoration: none;
+				color: #fff;
+				border: Solid 1px #AECAF0;
+			}
 
-ul#menu li a:active
-{
-	background-color: #3C80DB;
-	text-decoration: none;
-	color: #fff;
-	border: Solid 1px #AECAF0;
-}
+			ul#menu li a:active {
+				background-color: #3C80DB;
+				text-decoration: none;
+				color: #fff;
+				border: Solid 1px #AECAF0;
+			}
 
-ul#menu li.selected a
-{
-	background-color: #fff;
-	color: #000;
-}
+		ul#menu li.selected a {
+			background-color: #fff;
+			color: #000;
+		}
 
 /* FORM LAYOUT ELEMENTS   
 ----------------------------------------------------------*/
 
-fieldset
-{
+fieldset {
 	margin: 1em 0;
 	padding: 1em;
 	border: 1px solid #CCC;
 }
 
-fieldset p
-{
-	margin: 2px 12px 10px 10px;
-}
+	fieldset p {
+		margin: 2px 12px 10px 10px;
+	}
 
-fieldset label
-{
-	display: block;
-	color: #303030;
-}
+	fieldset label {
+		display: block;
+		color: #303030;
+	}
 
-fieldset label.inline
-{
-	display: inline;
-}
+		fieldset label.inline {
+			display: inline;
+		}
 
-legend
-{
+legend {
 	font-size: 1.1em;
 	font-weight: 600;
 	padding: 2px 4px 8px 4px;
 	color: #3C80DB;
 }
 
-input[type="text"]
-{
+input[type="text"] {
 	width: 200px;
 	border: 1px solid #3C80DB;
 	color: #696969;
 }
 
-input[type="password"]
-{
+input[type="password"] {
 	width: 200px;
 	border: 1px solid #3C80DB;
 	color: #696969;
 }
 
-input[type="submit"]
-{
-	background-image: url(   'ButtonBack.gif' );
+input[type="submit"] {
+	background-image: url( 'ButtonBack.gif' );
 	background-repeat: repeat-x;
 	border: 1px solid #3C80DB;
 	color: #283B56;
@@ -252,57 +226,49 @@ input[type="submit"]
 /* TABLE
 ----------------------------------------------------------*/
 
-table
-{
+table {
 	border: Solid 1px #A3C0E8;
 	border-collapse: collapse;
 	color: #283B56;
 }
 
-table td
-{
-	padding: 5px;
-	border: Solid 1px #A3C0E8;
-}
+	table td {
+		padding: 5px;
+		border: Solid 1px #A3C0E8;
+	}
 
-table th
-{
-	padding: 6px 5px;
-	text-align: left;
-	border: Solid 1px #A3C0E8;
-	background-image: url( 'TableHeaderBackground.gif' );
-	background-position: left;
-	background-repeat: repeat-x;
-	color: #283B56;
-	cursor: pointer;
-}
+	table th {
+		padding: 6px 5px;
+		text-align: left;
+		border: Solid 1px #A3C0E8;
+		background-image: url( 'TableHeaderBackground.gif' );
+		background-position: left;
+		background-repeat: repeat-x;
+		color: #283B56;
+		cursor: pointer;
+	}
 
 /* MISC  
 ----------------------------------------------------------*/
-.clear
-{
+.clear {
 	clear: both;
 }
 
-.error
-{
+.error {
 	color: Red;
 }
 
-#menucontainer
-{
+#menucontainer {
 	margin-top: 40px;
 }
 
-div#title
-{
+div#title {
 	display: block;
 	float: left;
 	text-align: left;
 }
 
-#logindisplay
-{
+#logindisplay {
 	font-size: 1.1em;
 	display: block;
 	text-align: right;
@@ -310,49 +276,51 @@ div#title
 	color: White;
 }
 
-#logindisplay a:link
-{
-	color: white;
-	text-decoration: underline;
-}
+	#logindisplay a:link {
+		color: white;
+		text-decoration: underline;
+	}
 
-#logindisplay a:visited
-{
-	color: white;
-	text-decoration: underline;
-}
+	#logindisplay a:visited {
+		color: white;
+		text-decoration: underline;
+	}
 
-#logindisplay a:hover
-{
-	color: white;
-	text-decoration: none;
-}
+	#logindisplay a:hover {
+		color: white;
+		text-decoration: none;
+	}
 
-.field-validation-error
-{
+.field-validation-error {
 	color: #ff0000;
 	background-image: url( 'Error.png' );
 	background-position: left;
 	background-repeat: no-repeat;
 	padding: 0px 0px 0px 20px;
-	font-size:0.9em;
+	font-size: 0.9em;
 }
 
-.input-validation-error
-{
+.input-validation-error {
 	background-color: #ffeeee;
 }
 
-.validation-summary-errors
-{
-	font-size:0.9em;
+.validation-summary-errors {
+	font-size: 0.9em;
 	padding: 4px;
 	color: #ff0000;
 }
 
-.validation-summary-errors li
-{
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
+	.validation-summary-errors li {
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+	}
+
+/* */
+a.logolink {
+	background: url(logo.jpg) no-repeat top left;
+	display: block;
+	width: 200px;
+	height: 40px;
+	text-indent: -9999px; /* hides the link text */
 }

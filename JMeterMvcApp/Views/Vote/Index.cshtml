@@ -1,0 +1,40 @@
+﻿@model System.Collections.Generic.List<JMeterApp.Common.Models.VoteCandidate>
+
+@{
+    ViewBag.Title = "マイクロソフトのキャラクターズ";
+}
+
+<h2>キャラへ投票しませう</h2>
+<h2 style="color: red">@ViewBag.Message</h2>
+@using (Html.BeginForm())
+{
+    <table>
+        <thead>
+            <tr>
+                <th>お顔</th>
+                <th>名前</th>
+                <th>解説</th>
+                <th>選択</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in Model)
+            {
+                <tr>
+                    <td>
+                        <img src="@p.ImgUrl" alt="@p.Name のイメージ" />
+                    </td>
+                    <td>
+                        @p.Name
+                    </td>
+                    <td>
+                        @p.Description
+                    </td>
+                    <td>
+                        @Html.ActionLink("このキャラに投票", "Select", new { ID = p.ID })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

@@ -12,7 +12,7 @@
 <body>
     <header id="header">
         <div id="title">
-            <p class="site-title">@Html.ActionLink("割と普通な MVC アプリ", "Index", "Home")</p>
+            <h2 class="site-title">@Html.ActionLink("割と普通な MVC アプリ", "Index", "Home", new { @class = "logolink" })</h2>
         </div>
         <div class="content-wrapper">
             <div class="float-left">
@@ -20,8 +20,7 @@
             <div class="float-right">
                 <nav>
                     <ul id="menu">
-                        <li>@Html.ActionLink("ホーム", "Index", "Home")</li>
-                        <li>@Html.ActionLink("バージョン情報", "About", "Home")</li>
+                        <li>@Html.ActionLink("投票開始", "Index", "Vote")</li>
                         <li>@Html.ActionLink("連絡先", "Contact", "Home")</li>
                     </ul>
                 </nav>

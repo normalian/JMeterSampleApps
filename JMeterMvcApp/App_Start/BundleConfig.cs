@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace JMeterMvcApp
+namespace JMeterApp.Mvc
 {
     public class BundleConfig
     {

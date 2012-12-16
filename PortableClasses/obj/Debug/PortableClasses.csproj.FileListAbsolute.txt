@@ -3,3 +3,8 @@ C:\my_program\CSharp\JMeterSampleApps\PortableClasses\bin\Debug\PortableClasses.
 C:\my_program\CSharp\JMeterSampleApps\PortableClasses\obj\Debug\PortableClasses.csprojResolveAssemblyReference.cache
 C:\my_program\CSharp\JMeterSampleApps\PortableClasses\obj\Debug\PortableClasses.dll
 C:\my_program\CSharp\JMeterSampleApps\PortableClasses\obj\Debug\PortableClasses.pdb
+C:\my_program\github\JMeterSampleApps\PortableClasses\bin\Debug\PortableClasses.dll
+C:\my_program\github\JMeterSampleApps\PortableClasses\bin\Debug\PortableClasses.pdb
+C:\my_program\github\JMeterSampleApps\PortableClasses\obj\Debug\PortableClasses.csprojResolveAssemblyReference.cache
+C:\my_program\github\JMeterSampleApps\PortableClasses\obj\Debug\PortableClasses.dll
+C:\my_program\github\JMeterSampleApps\PortableClasses\obj\Debug\PortableClasses.pdb
