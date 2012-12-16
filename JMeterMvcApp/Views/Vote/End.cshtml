@@ -1,0 +1,17 @@
+﻿@model JMeterApp.Common.Models.VoteCandidate
+
+@{
+    ViewBag.Title = "終了";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.Name への投票が完了しました</h2>
+
+<dl>
+    <dt>
+        あなたのコメント：
+    </dt>
+    <dd>
+        @ViewBag.Comment
+    </dd>
+</dl>

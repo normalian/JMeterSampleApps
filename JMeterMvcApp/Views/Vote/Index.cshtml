@@ -12,7 +12,9 @@
     <table>
         <thead>
             <tr>
+                <!-- 
                 <th>お顔</th>
+                    -->
                 <th>名前</th>
                 <th>解説</th>
                 <th>選択</th>
@@ -22,9 +24,11 @@
             @foreach (var p in Model)
             {
                 <tr>
+                    <!-- 
                     <td>
                         <img src="@p.ImgUrl" alt="@p.Name のイメージ" />
                     </td>
+                    -->
                     <td>
                         @p.Name
                     </td>

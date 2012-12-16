@@ -1,41 +1,35 @@
 ﻿@model JMeterApp.Common.Models.VoteCandidate
 
 @{
-    ViewBag.Title = "Select";
+    ViewBag.Title = "キャラ選択";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-<h2>キャラへ投票しませう</h2>
 <h2 style="color: red">@ViewBag.Message</h2>
 @using (Html.BeginForm())
 {
+    <h3>投票キャラ</h3>
     <table>
         <thead>
             <tr>
-                <th>お顔</th>
+                <th>&nbsp;</th>
                 <th>名前</th>
-                <th>解説</th>
-                <th>選択</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var p in Model)
-            {
-                <tr>
-                    <td>
-                        <img src="@p.ImgUrl" alt="@p.Name のイメージ" />
-                    </td>
-                    <td>
-                        @p.Name
-                    </td>
-                    <td>
-                        @p.Description
-                    </td>
-                    <td>
-                        @Html.ActionLink("このキャラに投票", "Select", new { ID = p.ID })
-                    </td>
-                </tr>
-            }
+            <tr>
+                <td>
+                    <img src="@Model.ImgUrl" alt="@Model.Name のイメージ" />
+                </td>
+                <td>
+                    @Model.Name
+                </td>
+            </tr>
         </tbody>
     </table>
+    <br />
+    <h3>コメント</h3>
+    @Html.TextArea("comment", string.Format("私 {0} 大好き！！ (:.;ﾟ;Д;ﾟ;.:)ﾊｧﾊｧ", Model.Name), new { rows = 10, cols = 30 })
+    <br />
+    @Html.Hidden("id", @Model.ID)
+    <input type="submit" value="投票決定" />
 }

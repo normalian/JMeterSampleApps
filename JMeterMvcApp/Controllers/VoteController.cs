@@ -36,7 +36,7 @@ namespace JMeterApp.Mvc.Controllers
         public ActionResult Select(FormCollection formCollection)
         {
             string comment = formCollection["comment"];
-            int id = 0;
+            int id = -1;
             if (int.TryParse(formCollection["id"], out id) == false)
             {
                 TempData["Message"] = "選択が不正っぽいです('A`)。再度投票してください。";
@@ -47,12 +47,26 @@ namespace JMeterApp.Mvc.Controllers
             return RedirectToAction("End");
         }
 
-        [HttpPost]
+        [HttpGet]
         public ActionResult End()
         {
-            ViewBag.Comment = TempData["Comment"];
+            int id = -1;
+            try
+            {
+                if (int.TryParse(TempData["Id"].ToString(), out id) == false)
+                {
+                    TempData["Message"] = "選択が不正っぽいです('A`)。再度投票してください。";
+                    return RedirectToAction("Index");
+                }
+                ViewBag.Comment = TempData["Comment"];
+            }
+            catch (Exception ex)
+            {
+                TempData["Message"] = "不正な操作っぽいです('A`)。再度投票してください。";
+                return RedirectToAction("Index");
+            }
 
-            return View();
+            return View(VoteCandidateFactory.VoteCandidates[id]);
         }
     }
 }
