@@ -14,8 +14,8 @@ TestResults
 *.sln.docstates
 
 # Build results
-[Dd]ebug*/
-[Rr]elease*/
+JMeterMvcApp/[Dd]ebug*/
+JMeterMvcApp/[Rr]elease*/
 x64/
 *_i.c
 *_p.c
@@ -89,8 +89,8 @@ csx
 AppPackages/
 
 # Others
-[Bb]in/
-[Oo]bj/
+JMeterMvcApp/[Bb]in/
+JMeterMvcApp/[Oo]bj/
 sql
 TestResults
 [Tt]est[Rr]esult*
