@@ -16,6 +16,8 @@ TestResults
 # Build results
 JMeterMvcApp/[Dd]ebug*/
 JMeterMvcApp/[Rr]elease*/
+JMeterApp.WebForm/[Dd]ebug*/
+JMeterApp.WebForm/[Rr]elease*/
 x64/
 *_i.c
 *_p.c
@@ -93,6 +95,8 @@ JMeterMvcApp/[Bb]in/
 JMeterMvcApp/[Oo]bj/
 PortableClasses/[Bb]in/
 PortableClasses/[Oo]bj/
+JMeterApp.WebForm/[Bb]in/
+JMeterApp.WebForm/[Oo]bj/
 sql
 TestResults
 [Tt]est[Rr]esult*

@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMeterApp.Mvc", "JMeterMvcA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMeterApp.Common", "PortableClasses\JMeterApp.Common.csproj", "{268B6296-8E59-4259-BED9-3F78A79B4BBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMeterApp.WebForm", "JMeterApp.WebForm\JMeterApp.WebForm.csproj", "{32A6EE5C-E82B-40EA-9078-AF6512F43D9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{268B6296-8E59-4259-BED9-3F78A79B4BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{268B6296-8E59-4259-BED9-3F78A79B4BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{268B6296-8E59-4259-BED9-3F78A79B4BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32A6EE5C-E82B-40EA-9078-AF6512F43D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A6EE5C-E82B-40EA-9078-AF6512F43D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A6EE5C-E82B-40EA-9078-AF6512F43D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A6EE5C-E82B-40EA-9078-AF6512F43D9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
