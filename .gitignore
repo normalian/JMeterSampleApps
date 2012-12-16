@@ -91,6 +91,8 @@ AppPackages/
 # Others
 JMeterMvcApp/[Bb]in/
 JMeterMvcApp/[Oo]bj/
+PortableClasses/[Bb]in/
+PortableClasses/[Oo]bj/
 sql
 TestResults
 [Tt]est[Rr]esult*
