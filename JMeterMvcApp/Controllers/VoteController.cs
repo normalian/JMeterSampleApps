@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Web;
 using System.Web.Mvc;
 using JMeterApp.Common.Models;
@@ -13,6 +14,15 @@ namespace JMeterApp.Mvc.Controllers
         // GET: /Vote/
         public ActionResult Index()
         {
+            //TODO: ダメダメなアプリが業務データを一括で読み込むことを想定
+            {
+                var builder = new StringBuilder();
+                for (int i = 0; i < 1000; i++)
+                {
+                    builder.AppendFormat("No.{0} - ", i);
+                }
+                Session["DummyData"] = builder.ToString();
+            }
             if (TempData["Message"] != null)
             {
                 ViewBag.Message = TempData["Message"];
@@ -66,6 +76,8 @@ namespace JMeterApp.Mvc.Controllers
                 return RedirectToAction("Index");
             }
 
+            //TODO:ここでセッションを無効化しないとエラーがやばい
+            Session.Abandon();
             return View(VoteCandidateFactory.VoteCandidates[id]);
         }
     }
